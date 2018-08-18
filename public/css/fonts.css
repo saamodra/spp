@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf');
+  src: url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('ttf'), url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+}
+body{
+  font-family: 'Source Sans Pro';
+}
+body.login-page{
+  background-image: url("../images/maxresdefault1-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-logo{
+  color: white;
+}
+#radio{
+  margin: 0px 10px 0px 10px;
+}
+#loadicon{
+  color: #FF9900;
+}
+#loadicon2{
+  color: #00C0EF;
+}
